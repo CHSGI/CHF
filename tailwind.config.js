@@ -8,7 +8,17 @@ export default {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+            inter: ['Inter', 'sans-serif']
+        },
+        colors: {
+            bgLightBrown : "#F7F4EA",
+            brownText: "#B1A88FCC",
+            greenText: "#69A19A",
+            deepGreenText: "#5173B0"
+        }
+    },
   },
   plugins: [
     flowbite.plugin(),
